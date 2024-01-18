@@ -2,10 +2,10 @@
 session_start();
 
     if($_POST){
-        if(($_POST['usuario']=="BiblioWeb")&&($_POST['contrasenia']=="Biblioteca3139")){
+        if(($_POST['usuario']=="userfake")&&($_POST['contrasenia']=="123456789")){
         
         $_SESSION['usuario']="ok";
-        $_SESSION['nombreUsuario']="BiblioWeb";
+        $_SESSION['nombreUsuario']="userfake";
         header('Location:inicio.php');  
       }else{
 
